@@ -4,6 +4,7 @@
   "description": "backend service for todo app",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "npm i"
   },
   "repository": {
