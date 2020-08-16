@@ -1,0 +1,28 @@
+{
+  "name": "coderlust-todo-node",
+  "version": "1.0.0",
+  "description": "backend service for todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pprachit09/coderlust-todo-node.git"
+  },
+  "keywords": [
+    "Node",
+    "Coderlust"
+  ],
+  "author": "Prachit Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pprachit09/coderlust-todo-node/issues"
+  },
+  "homepage": "https://github.com/pprachit09/coderlust-todo-node#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
