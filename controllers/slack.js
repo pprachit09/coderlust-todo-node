@@ -6,6 +6,7 @@ slack.setWebhook(webhookUri);
 
 exports.postmessage = (req, res) => {
     const {
+        source,
         email,
         subject,
         message
@@ -13,7 +14,7 @@ exports.postmessage = (req, res) => {
     slack.webhook({
         channel: "#coderlust",
         username: "coderlust",
-        text: `Email: ${email} Subject: ${subject} Message: ${message}`
+        text: `Source: ${source} Email: ${email} Subject: ${subject} Message: ${message}`
     }, (err, response) => {
         if (!err) {
             return res.json({
